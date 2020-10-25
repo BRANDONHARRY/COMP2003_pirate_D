@@ -1,2 +1,2 @@
-# pirate_D
+# NEW SUPER PIRATE BROS.
 Group project for COMP2003
