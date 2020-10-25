@@ -1,2 +1,2 @@
-# PIRATEBROS EXPOSED 2020 FREE DOWNLOAD NO VIRUS.EXE
+# Pirate Treasure
 Group project for COMP2003
