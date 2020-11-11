@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="php page been made">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="php page been made" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605104412681</updated>
       <workItem from="1605104413773" duration="1289000" />
+      <workItem from="1605107433638" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -114,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -123,6 +123,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="php page been made" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Deployment" timestamp="1605107521197">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1605107521197" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1605107492442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605107492442" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605105366618">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
