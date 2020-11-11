@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="Website file structure">
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="php page been made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +41,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k9ETHXKSR4KA1JW5oOiOkFsyzk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605104412681</updated>
-      <workItem from="1605104413773" duration="757000" />
+      <workItem from="1605104413773" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -68,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605104557576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added photos">
+      <created>1605105209541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605105209541</updated>
+    </task>
+    <task id="LOCAL-00003" summary="php page been made">
+      <created>1605105403834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605105403834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,17 +116,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Website file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website file structure" />
+    <MESSAGE value="added photos" />
+    <MESSAGE value="php page been made" />
+    <option name="LAST_COMMIT_MESSAGE" value="php page been made" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605105366618">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605105366618" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1605105170737">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605105170737" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605104720682">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605105414494">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605104720682" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605105414494" />
   </component>
 </project>
