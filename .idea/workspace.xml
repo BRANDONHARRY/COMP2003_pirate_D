@@ -26,8 +26,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="php page been made">
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="split css and php website up, external css">
+      <change afterPath="$PROJECT_DIR$/Website/public/about_us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/public/contact_us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/public/download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/public/learderboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/public/news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/assets/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +66,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605104412681</updated>
       <workItem from="1605104413773" duration="1289000" />
+      <workItem from="1605107433638" duration="3574000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -86,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605105403834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="php test website">
+      <created>1605107762001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605107762001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="split css and php website up, external css">
+      <created>1605109343625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605109343625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,26 +144,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Website file structure" />
     <MESSAGE value="added photos" />
     <MESSAGE value="php page been made" />
-    <option name="LAST_COMMIT_MESSAGE" value="php page been made" />
+    <MESSAGE value="php test website" />
+    <MESSAGE value="split css and php website up, external css" />
+    <option name="LAST_COMMIT_MESSAGE" value="split css and php website up, external css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605105366618">
+    <state x="552" y="183" key="#Deployment" timestamp="1605110099340">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605105366618" />
+    <state x="552" y="183" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1605110099340" />
+    <state x="637" y="206" key="#Options" timestamp="1605110047972">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="637" y="206" key="#Options/0.0.1920.1050@0.0.1920.1050" timestamp="1605110047972" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605108809793">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605108809793" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1605107492442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605107492442" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605110398766">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605110398766" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1605105170737">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605105170737" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605105414494">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605109347704">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605105414494" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605109347704" />
+    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605110890069">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605110890069" />
   </component>
 </project>
