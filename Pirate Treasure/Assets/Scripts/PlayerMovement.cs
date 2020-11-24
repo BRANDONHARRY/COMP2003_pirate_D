@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5.0f;
     Rigidbody2D rigidbody2D;
 
-    float x = 0.0f;
     public float y = 0.0f;
     bool cooloff = false;
     int waitFrames = 0;
