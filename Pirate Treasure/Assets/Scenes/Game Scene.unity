@@ -137,6 +137,8 @@ GameObject:
   - component: {fileID: 125520160}
   - component: {fileID: 125520161}
   - component: {fileID: 125520162}
+  - component: {fileID: 125520164}
+  - component: {fileID: 125520165}
   - component: {fileID: 125520159}
   - component: {fileID: 125520163}
   m_Layer: 0
@@ -325,6 +327,49 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34, y: 0.66}
   m_EdgeRadius: 0
+--- !u!114 &125520164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125520155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868be806660df6d44bf4429de7e28056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  onDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 125520165}
+        m_TargetAssemblyTypeName: DestroyOnDie, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &125520165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125520155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a8099bcbbab754eb5d83b8d2dd0873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,7 +1369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797985067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.037, y: 0.86, z: 0}
+  m_LocalPosition: {x: -0.912, y: 1.119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1345,7 +1390,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.73643386
+  m_Radius: 1
 --- !u!114 &1797985071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,8 +1403,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43f1f655e55067499231bd305239d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  delay: 5
+  rend: {fileID: 1797985068}
+  damage: 10
+  delay: 4
+  hideSprite: {fileID: 21300000, guid: f6fb4346babfdfa43974528dfc9ccb6f, type: 3}
+  seeSprite: {fileID: 21300000, guid: cfe5eb93e0ee9cb4e94aaf2eb8e28a91, type: 3}
+  distance: 0
 --- !u!1 &1996543489
 GameObject:
   m_ObjectHideFlags: 0
