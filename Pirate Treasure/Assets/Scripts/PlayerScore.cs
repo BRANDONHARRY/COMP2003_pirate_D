@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerScore : MonoBehaviour
 {
+    public delegate void UpdateScore(int newScore);
+    public static event UpdateScore OnUpdateScore;
+
     public int totalScore = 0;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,10 @@ public class PlayerScore : MonoBehaviour
 
     public void AddScore (int Score)
     {
-        totalScore = totalScore + Score;
+        //totalScore = totalScore + Score;
+        if(OnUpdateScore != null)
+        {
+            OnUpdateScore(Score);
+        }
     }
 }

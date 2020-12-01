@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rend: {fileID: 2314174737480136684}
-  damage: 10
+  damage: 5
   delay: 4
   hideSprite: {fileID: 21300000, guid: f6fb4346babfdfa43974528dfc9ccb6f, type: 3}
   seeSprite: {fileID: 21300000, guid: cfe5eb93e0ee9cb4e94aaf2eb8e28a91, type: 3}
