@@ -28,13 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/assets/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/contact_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/download.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/learderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/learderboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +59,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +75,8 @@
       <updated>1605104412681</updated>
       <workItem from="1605104413773" duration="1289000" />
       <workItem from="1605107433638" duration="3574000" />
-      <workItem from="1606318870141" duration="744000" />
+      <workItem from="1606318870141" duration="1326000" />
+      <workItem from="1606396142397" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606319006370</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tidying up hrefs">
+      <created>1606319774313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606319774313</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +166,8 @@
     <MESSAGE value="split css and php website up, external css" />
     <MESSAGE value="changed css to include image and title text, clean uyp index page as well" />
     <MESSAGE value="changed css to include image and title text, clean up index page as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed css to include image and title text, clean up index page as well" />
+    <MESSAGE value="tidying up hrefs" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidying up hrefs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1606319222365">
@@ -183,14 +187,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605108809793" />
-    <state x="575" y="93" key="CommitChangelistDialog2" timestamp="1606319004771">
+    <state x="575" y="93" key="CommitChangelistDialog2" timestamp="1606319773416">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="575" y="93" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319004771" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606319204497">
+    <state x="575" y="93" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319773416" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1606320130725">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319204497" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606320130725" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606319826870">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319826870" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605107492442" />
     <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605110398766">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -200,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605105170737" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606319011525">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606319838468">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319011525" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319838468" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605109347704" />
     <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605110890069">
       <screen x="0" y="0" width="1920" height="1050" />
