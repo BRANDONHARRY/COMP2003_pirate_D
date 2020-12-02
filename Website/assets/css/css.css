@@ -9,6 +9,30 @@ body {
     margin: 0;
 }
 
+table{
+    border: 10px Solid Black;
+
+
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.myOtherTable {
+    background-color:#FFFFE0;
+    border-collapse:collapse;
+    color:#000;
+    font-size:18px;
+}
+
+.myOtherTable th { background-color:#BDB76B;color:white;width:50%; }
+.myOtherTable td, .myOtherTable th { padding:5px;border:0; }
+.myOtherTable td { border-bottom:1px dotted #BDB76B; }
+
+
 /* Header/logo Title */
 .header {
     padding: 80px;
@@ -72,13 +96,6 @@ body {
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
     background-color: white;
-    padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
     padding: 20px;
 }
 

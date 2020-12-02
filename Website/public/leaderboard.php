@@ -11,13 +11,13 @@
 <body>
 
 <div class="header">
-    <h1>Pirate Treasure!</h1>
+    <img src="/COMP2003_pirate_D/Website/assets/img/pirate_treasure.png">
     <p>A website created by group_D</p>
 </div>
 
 <div class="navbar">
     <a href="/COMP2003_pirate_D/Website/public/index.php">Home</a>
-    <a href="/COMP2003_pirate_D/Website/public/learderboard.php" class="selected">Leaderboards</a>
+    <a href="/COMP2003_pirate_D/Website/public/leaderboard.php" class="selected">Leaderboards</a>
     <a href="/COMP2003_pirate_D/Website/public/news.php">News</a>
     <a href="/COMP2003_pirate_D/Website/public/download.php">Download</a>
     <a href="/COMP2003_pirate_D/Website/public/about_us.php" class="right">About us</a>
