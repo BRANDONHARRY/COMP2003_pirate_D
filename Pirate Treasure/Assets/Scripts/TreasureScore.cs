@@ -21,7 +21,7 @@ public class TreasureScore : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        TreasureValue = rand.Next(0, 10);
+        TreasureValue = rand.Next(1, 10);
         other.transform.SendMessage("AddScore", TreasureValue, SendMessageOptions.DontRequireReceiver);
         Die();
     }
