@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //This allows for the 'stages' of speed to function, rather than just jumping to the maximum value.
-        if (cooloff = true)
+        if (cooloff == true)
         {
             waitFrames--;
             if (waitFrames < 0) 
@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
             y = y + 0.5f;
 
             cooloff = true;
+            //Gives a wait time of half a second
             waitFrames = 15;
             
 
