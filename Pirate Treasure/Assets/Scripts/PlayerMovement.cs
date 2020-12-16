@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5.0f;
     Rigidbody2D rigidbody2D;
-
+    public GameObject player;
     public float y = 0.0f;
     bool cooloff = false;
     int waitFrames = 0;
@@ -36,6 +36,23 @@ public class PlayerMovement : MonoBehaviour
             cooloff = true;
             //Gives a wait time of half a second
             waitFrames = 15;
+
+            switch (y)
+            {
+                case 0.5f:
+                    player.transform.SendMessage("ChangeSpeed", "Half", SendMessageOptions.DontRequireReceiver);
+                    break;
+                case 1f:
+                    player.transform.SendMessage("ChangeSpeed", "Full", SendMessageOptions.DontRequireReceiver);
+                    break;
+                case -0.5f:
+                    player.transform.SendMessage("ChangeSpeed", "R-Half", SendMessageOptions.DontRequireReceiver);
+                    break;
+                default:
+                    player.transform.SendMessage("ChangeSpeed", "Stop", SendMessageOptions.DontRequireReceiver);
+                    break;
+
+            }
             
 
         }
@@ -45,6 +62,23 @@ public class PlayerMovement : MonoBehaviour
 
             cooloff = true;
             waitFrames = 15;
+
+            switch (y)
+            {
+                case 0.5f:
+                    player.transform.SendMessage("ChangeSpeed", "Half", SendMessageOptions.DontRequireReceiver);
+                    break;
+                case -1f:
+                    player.transform.SendMessage("ChangeSpeed", "R-Full", SendMessageOptions.DontRequireReceiver);
+                    break;
+                case -0.5f:
+                    player.transform.SendMessage("ChangeSpeed", "R-Half", SendMessageOptions.DontRequireReceiver);
+                    break;
+                default:
+                    player.transform.SendMessage("ChangeSpeed", "Stop", SendMessageOptions.DontRequireReceiver);
+                    break;
+
+            }
 
         }
 

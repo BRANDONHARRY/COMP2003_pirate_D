@@ -8,6 +8,7 @@ public class GameUI : MonoBehaviour
     public Slider healthBar;
     public Text scoreText;
     public int playerScore;
+    public Text speedText;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +25,14 @@ public class GameUI : MonoBehaviour
     {
         PlayerHealth.OnUpdateHealth += UpdateHealthBar;
         PlayerScore.OnUpdateScore += UpdateScore;
+        PlayerSpeed.OnUpdateSpeed += UpdateSpeed;
     }
 
     private void OnDisable()
     {
         PlayerHealth.OnUpdateHealth -= UpdateHealthBar;
         PlayerScore.OnUpdateScore -= UpdateScore;
+        PlayerSpeed.OnUpdateSpeed -= UpdateSpeed;
     }
 
     private void UpdateHealthBar(int health)
@@ -41,5 +44,10 @@ public class GameUI : MonoBehaviour
     {
         playerScore += theScore;
         scoreText.text = "Score: " + playerScore.ToString();
+    }
+    private void UpdateSpeed(string newSpeed)
+    {
+        Debug.Log("Changing Speed to " + newSpeed);
+        speedText.text = "Speed: " + newSpeed;
     }
 }
