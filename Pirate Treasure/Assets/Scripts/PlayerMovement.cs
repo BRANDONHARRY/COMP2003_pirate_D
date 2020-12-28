@@ -37,6 +37,15 @@ public class PlayerMovement : MonoBehaviour
             //Gives a wait time of half a second
             waitFrames = 15;
 
+            if (y > 1)
+            {
+                y = 1;
+            }
+            else if (y < -1)
+            {
+                y = -1;
+            }
+
             switch (y)
             {
                 case 0.5f:
@@ -63,6 +72,15 @@ public class PlayerMovement : MonoBehaviour
             cooloff = true;
             waitFrames = 15;
 
+            if (y > 1)
+            {
+                y = 1;
+            }
+            else if (y < -1)
+            {
+                y = -1;
+            }
+
             switch (y)
             {
                 case 0.5f:
@@ -83,14 +101,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if(y > 1)
-        {
-            y = 1;
-        }
-        else if (y < -1)
-        {
-            y = -1;
-        }
+        
 
         rigidbody2D.velocity = transform.up * (y*speed);
         rigidbody2D.angularVelocity = 0.0f;
