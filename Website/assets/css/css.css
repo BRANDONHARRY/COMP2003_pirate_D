@@ -1,3 +1,7 @@
+
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+
 .selected {
     background-color:#928ebf;
 }
@@ -40,7 +44,6 @@ table.center{
     color: white;
     background-size:100% 100%;
     background-image: url("/COMP2003_pirate_D/Website/assets/img/game.png");
-
 }
 
 /* Increase the font size of the heading */

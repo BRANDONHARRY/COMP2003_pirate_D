@@ -27,7 +27,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Website/assets/img/pirate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2020_13_34_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2020_13_34__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/assets/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/contact_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/leaderboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +68,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Website/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,6 +81,11 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\Ampps\www\COMP2003_pirate_D\Website\assets\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +102,11 @@
       <workItem from="1606821883794" duration="120000" />
       <workItem from="1606822031509" duration="1191000" />
       <workItem from="1606918140614" duration="6959000" />
+      <workItem from="1610988139801" duration="1246000" />
+      <workItem from="1611059523089" duration="3332000" />
+      <workItem from="1611762573440" duration="51000" />
+      <workItem from="1611766194738" duration="18000" />
+      <workItem from="1612361359144" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -206,59 +227,5 @@
     <MESSAGE value="tidying up hrefs" />
     <MESSAGE value="Added members info into the contact us page. Also changed title of each page to match eachother." />
     <option name="LAST_COMMIT_MESSAGE" value="Added members info into the contact us page. Also changed title of each page to match eachother." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#Deployment" timestamp="1606925151949">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="183" key="#Deployment/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606925151949" />
-    <state x="552" y="183" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1605110099340" />
-    <state x="715" y="349" key="#Notifications" timestamp="1606821950697">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="715" y="349" key="#Notifications/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606821950697" />
-    <state x="637" y="206" key="#Options" timestamp="1605110047972">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="637" y="206" key="#Options/0.0.1920.1050@0.0.1920.1050" timestamp="1605110047972" />
-    <state x="667" y="168" key="#PHP" timestamp="1606319235148">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="667" y="168" key="#PHP/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606319235148" />
-    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605108809793">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605108809793" />
-    <state x="575" y="93" key="CommitChangelistDialog2" timestamp="1606924880711">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="575" y="93" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606924880711" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1606925027441">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606925027441" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606925143197">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606925143197" />
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605107492442" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1605110398766">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605110398766" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1605105170737">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605105170737" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606925090160">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606925090160" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605109347704" />
-    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606822472284">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.2194.1204@0.0.1920.1050" timestamp="1606822472283" />
-    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605110890069" />
   </component>
 </project>
