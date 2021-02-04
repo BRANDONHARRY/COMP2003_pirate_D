@@ -26,12 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Website/assets/img/pirate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2020_13_34_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2020_13_34__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="Change layout of webpages">
+      <change afterPath="$PROJECT_DIR$/Website/assets/data/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/assets/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/public/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/about_us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/public/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/contact_us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/public/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/download.php" afterDir="false" />
@@ -70,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Website/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Website/assets/data" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\Ampps\www\COMP2003_pirate_D\Website\assets\data" />
       <recent name="D:\Programs\Ampps\www\COMP2003_pirate_D\Website\assets\img" />
     </key>
   </component>
@@ -106,7 +104,8 @@
       <workItem from="1611059523089" duration="3332000" />
       <workItem from="1611762573440" duration="51000" />
       <workItem from="1611766194738" duration="18000" />
-      <workItem from="1612361359144" duration="2359000" />
+      <workItem from="1612361359144" duration="2834000" />
+      <workItem from="1612440264640" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606924882036</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Change layout of webpages">
+      <created>1612363750466</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612363750466</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,7 @@
     <MESSAGE value="changed css to include image and title text, clean up index page as well" />
     <MESSAGE value="tidying up hrefs" />
     <MESSAGE value="Added members info into the contact us page. Also changed title of each page to match eachother." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added members info into the contact us page. Also changed title of each page to match eachother." />
+    <MESSAGE value="Change layout of webpages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change layout of webpages" />
   </component>
 </project>

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Pirates Treasure Contact</title>
+
+    <title>Pirates Treasure - Home page</title>
 
     <style>
         .header {
@@ -65,11 +66,29 @@
         <p>A website created by group_D</p>
     </div>
 
-    <div class="row">
-        <div class="main">
-            <h1></h1>
+    <div class="container-fluid mt-5 px-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Welcome to our website</h1>
+                <p>
+                    For those interested in a small groups project about a game and its stats.
+                </p>
+                <p>
+                    This page is to show you the leaderboard for all scores players have submitted.
+                </p>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-sm-2">
+                <a href="leaderboard.php" class="btn btn-info">View Leaderboard</a>
+
+            </div>
+            <div class="col-sm-8"></div>
+        </div>
+
     </div>
+
 
 </body>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Pirates Treasure Contact</title>
+    <title>Pirates Treasure - Contact Us</title>
 
     <style>
         .header {
@@ -59,47 +59,47 @@
         </div>
     </nav>
 
-<div class="header">
-    <img src="/COMP2003_pirate_D/Website/assets/img/pirate_treasure.png">
-    <p>A website created by group_D</p>
-</div>
+    <div class="header">
+        <img src="/COMP2003_pirate_D/Website/assets/img/pirate_treasure.png">
+        <p>A website created by group_D</p>
+    </div>
 
-<br>
+    <br>
 
-<div class="container">
-    <table class="table table-bordered">
-        <tr>
-            <th>Person</th><th>Where to find them:</th><th></th>
-        </tr>
-        <tr>
-            <td>Alexandros Michalmpeis</td>
-            <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=140671">Student Profile</a></td>
-            <td><a href="https://github.com/michalmpeis">GitHub</a></td>
-        </tr>
+    <div class="container">
+        <table class="table table-bordered  table-hover table-sm">
+            <tr>
+                <th>Person</th><th>Where to find them:</th><th></th>
+            </tr>
+            <tr>
+                <td>Alexandros Michalmpeis</td>
+                <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=140671">Student Profile</a></td>
+                <td><a href="https://github.com/michalmpeis">GitHub</a></td>
+            </tr>
 
-        <tr>
-            <td>Brandon Kent</td>
-            <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=138097/">Student Profile</a></td>
-            <td><a href="https://github.com/BRANDONHARRY">GitHub</a></td>
-        </tr>
+            <tr>
+                <td>Brandon Kent</td>
+                <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=138097/">Student Profile</a></td>
+                <td><a href="https://github.com/BRANDONHARRY">GitHub</a></td>
+            </tr>
 
-        <tr>
-            <td>Jack Opie</td>
-            <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=137750">Student Profile</a></td>
-            <td><a href="https://github.com/Jack0pie">GitHub</a></td>
-        </tr>
+            <tr>
+                <td>Jack Opie</td>
+                <td><a href="https://dle.plymouth.ac.uk/user/profile.php?id=137750">Student Profile</a></td>
+                <td><a href="https://github.com/Jack0pie">GitHub</a></td>
+            </tr>
 
-        <tr>
-            <td>Daniel C Andrews</td>
-            <td><a href="https://www.google.com/">Student Profile</a></td>
-            <td><a href="https://github.com/Hambush2">GitHub</a></td>
-        </tr>
-    </table>
-</div>
+            <tr>
+                <td>Daniel C Andrews</td>
+                <td><a href="https://www.google.com/">Student Profile</a></td>
+                <td><a href="https://github.com/Hambush2">GitHub</a></td>
+            </tr>
+        </table>
+    </div>
 
-    <footer class="footer">
-        <div class="container">
-            <span class="text-muted">Created by COMP2003 Group_D. Link to Github:
-            <a href="https://github.com/BRANDONHARRY/COMP2003_pirate_D">https://github.com/BRANDONHARRY/COMP2003_pirate_D</a></span>
-        </div>
-    </footer>
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">Created by COMP2003 Group_D. Link to Github:
+                <a href="https://github.com/BRANDONHARRY/COMP2003_pirate_D">https://github.com/BRANDONHARRY/COMP2003_pirate_D</a></span>
+            </div>
+        </footer>
