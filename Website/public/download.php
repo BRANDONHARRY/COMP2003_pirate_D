@@ -60,7 +60,7 @@
         </nav>
 
         <div class="header">
-            <img src="/COMP2003_pirate_D/Website/assets/img/pirate_treasure.png">
+            <img src="../assets/img/pirate_treasure.png">
             <p>A website created by group_D</p>
         </div>
 
