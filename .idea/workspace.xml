@@ -26,14 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="Change layout of webpages added basic csv file.">
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/public/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/contact_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/download.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/leaderboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/public/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/news.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +101,9 @@
       <workItem from="1612361359144" duration="2834000" />
       <workItem from="1612440264640" duration="3697000" />
       <workItem from="1612456356172" duration="693000" />
+      <workItem from="1612460691492" duration="1039000" />
+      <workItem from="1612462903430" duration="2000" />
+      <workItem from="1612969830360" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>

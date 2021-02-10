@@ -64,7 +64,18 @@
         <p>A website created by group_D</p>
     </div>
 </body>
-
+<div class="container">
+<header class="text-black text-center">
+    <div class="container d-flex align-items-center flex-column">
+<h1 class>A bit of information about our team!</h1>
+    </div>
+    <div class="text-left text">
+    <p style="font-size:40px">A group project for the COMP2003 module.</p>
+<p style="font-size:20px">Regarding our team, we are a small group of 4 that love computing and are focused on creating great projects together.
+Our game is called Pirate Treasure and is based on controlling a ship that has to collect random appearing treasures around the map, making sure at the same time
+to watch out for the sea monsters that hunt you!</p>
+    </div>
+    </div>
     <footer class="footer">
         <div class="container">
             <span class="text-muted">Created by COMP2003 Group_D. Link to Github:
