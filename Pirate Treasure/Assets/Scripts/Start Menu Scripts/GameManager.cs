@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void StartGame()
@@ -31,5 +31,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Start Menu", LoadSceneMode.Single);
     }
-}
 
+    public void EndGame()
+    {
+        SceneManager.LoadSceneAsync("End Game", LoadSceneMode.Single);
+    }
+}
