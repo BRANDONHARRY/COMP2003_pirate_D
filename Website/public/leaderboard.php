@@ -21,7 +21,8 @@
             background-image: url("../assets/img/Game.png");
         }
         .footer {
-            position: sticky;
+            position: absolute;
+            left: 0;
             bottom: 0;
             width: 100%;
             height: 60px;
@@ -89,25 +90,45 @@
         </div>
 
         <?php
-        echo
-        "   <div class='container'>
-                    <table class='table table-bordered table-dark table-hover table-sm'>\n\n
-                </div";
+        $server = "Proj-mysql.uopnet.plymouth.ac.uk";
+        $username = "COMP2003_D";
+        $password = "VitW270*";
+        $con = mysqli_connect($server, $username, $password);
+        $response = array();
 
-        $f = fopen("../Assets/data/data.csv", "r");
-        while (($line = fgetcsv($f)) !== false) {
-            echo "<tr>";
-            foreach ($line as $cell) {
-                echo "<td>" . htmlspecialchars($cell) . "</td>";
-            }
-            echo "</tr>\n";
+        if ($con->connect_error) {
+            die("Connection failed: " . $con->connect_error);
         }
-        fclose($f);
-        echo "
-                </table>";
-        ?>
-        </div>
+        $query = "SELECT * FROM comp2003_d.usertbl;";
+        $result = $con->query($query);
 
+        if ($result->num_rows > 0) {
+            echo "    <div class='container'>
+                        <table class='table table-bordered table-dark table-hover table-sm'>
+                        <tr>
+                            <th>User ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                        </tr>
+                    ";
+
+            while ($row = $result->fetch_assoc()) {
+                echo"   <tr>
+                            <td>" . $row["userID"] . "</td>
+                            <td>" . $row["firstName"] . "</td>
+                            <td>" . $row["lastName"] . "</td>
+                            <td>" . $row["username"] . "</td>
+                            <td>" . $row["email"] . "</td>
+                            <td>" . $row["password"] . "</td>
+                        </tr>";
+            }
+        } else {
+            echo "0 results";
+        }
+        ?>
 
         <footer class="footer">
                 <div class="container">
