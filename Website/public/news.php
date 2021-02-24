@@ -64,6 +64,34 @@
         <p>A website created by group_D</p>
     </div>
 
+    <div class="container">
+        <header class="text-black text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <h1 class>RECENT UPDATES & ANNOUNCEMENTS</h1>
+            </div>
+            <div class="text-left">
+                <h1 style="font-size:25px">Release 1.0</h1>
+                <p style="font-size:20px">Initial game release. Game is in a very early stage. Player movement has been inplemented.</p>
+            </div>
+
+            <div class="text-left">
+                <h1 style="font-size:25px">Update 1.1</h1>
+                <p style="font-size:20px">Game now includes new islands and additional controls for shooting cannon balls into sea monsters that should be included with the game into future updates!</p>
+            </div>
+
+            <div class="text-left">
+                <h1 style="font-size:25px">Update 1.2</h1>
+                <p style="font-size:20px">Game now includes treasures that can be found on the islands implemented on the previous update.</p>
+            </div>
+
+            <div class="text-left">
+                <h1 style="font-size:25px">Release 2.0</h1>
+                <p style="font-size:20px">Game now has new sea monsters that can now attack the player and make him lose life. Its also possible now get random amounts of treasure from the treasure chests found on the islands.</p>
+            </div>
+
+    </div>
+
+
     <footer class="footer">
         <div class="container">
             <span class="text-muted">Created by COMP2003 Group_D. Link to Github:
