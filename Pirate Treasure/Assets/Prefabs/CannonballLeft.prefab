@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7389071286077648085}
   - component: {fileID: 6813736603340605459}
   - component: {fileID: 6156917710112599419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CannonballLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 100
   damage: 1
+  monster: {fileID: 5296950560004953191, guid: e8243bafa0fcdda4e905426c0b4b7a90, type: 3}
 --- !u!212 &7389071286077648085
 SpriteRenderer:
   m_ObjectHideFlags: 0

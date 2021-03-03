@@ -6,6 +6,7 @@ public class CannonballRight : MonoBehaviour
 {
     public float movespeed = 10.0f;
     public int damage = 1;
+    public GameObject monster;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class CannonballRight : MonoBehaviour
     {
         other.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
         Die();
+
     }
 
     private void OnBecameInvisible() 

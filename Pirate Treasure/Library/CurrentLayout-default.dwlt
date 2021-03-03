@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 28125
+  controlID: 8770
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 28198
+  controlID: 8656
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 28199
+  controlID: 8657
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,8 +300,8 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -423,10 +423,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      scrollPos: {x: 0, y: 25}
+      m_SelectedIDs: 683e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7681ffff8683ffffde86ffff4887ffff188effff1294ffff6e95ffffea99ffff529cffffaa9cffff1ca0ffff14a2ffffeea2ffffdea4ffff4ea5ffff22a6ffff92aaffff80adffff00afffff64b1ffff3cb2fffff8b2ffff72b5ffff4ab7ffffc8b8ffff42bcffffa4bcffffcabfffffe8bfffff22c1ffff36c1ffff56c1ffff0ac4ffff50c7ffffc6c7ffff44c9ffffcac9ffffd8c9ffff02caffff72ccffff24cdffff36cdffffa8deffff22f9ffff2cf9ffff48f9ffffaafaffff56fbffffa2620000b8630000c26f00000c7700009a7700008c7a0000ca7c0000547d0000c287000086880000fe88000072970000
+      m_ExpandedIDs: a2dcffff7cdfffffeae0ffff0ee3ffff3ee6ffffc6e9ffff10fbffff743d0000ae3d0000d63d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 187.99324, y: 365.72125, z: -502.58755}
+    m_Target: {x: 268.3578, y: 101.281654, z: -24.039059}
     speed: 2
-    m_Value: {x: 187.99324, y: 365.72125, z: -502.58755}
+    m_Value: {x: 268.3578, y: 101.281654, z: -24.039059}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -539,9 +539,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 249.92834
+    m_Target: 237.263
     speed: 2
-    m_Value: 249.92834
+    m_Value: 237.263
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -715,21 +715,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Sandy\Documents\GitHub\pirate_D\Pirate Treasure
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f23d0000
-    m_LastClickedID: 15858
-    m_ExpandedIDs: 00000000e63d000000ca9a3b
+    m_SelectedIDs: 363e0000
+    m_LastClickedID: 15926
+    m_ExpandedIDs: 000000002a3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -757,7 +757,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e63d000000ca9a3b
+    m_ExpandedIDs: 000000002a3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

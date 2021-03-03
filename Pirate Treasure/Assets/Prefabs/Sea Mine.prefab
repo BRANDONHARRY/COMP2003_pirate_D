@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2314174737480136684}
   - component: {fileID: 2314174737480136686}
   - component: {fileID: 2314174737480136687}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sea Mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,3 +118,4 @@ MonoBehaviour:
   hideSprite: {fileID: 21300000, guid: f6fb4346babfdfa43974528dfc9ccb6f, type: 3}
   seeSprite: {fileID: 21300000, guid: cfe5eb93e0ee9cb4e94aaf2eb8e28a91, type: 3}
   distance: 0
+  player: {fileID: 5010979985590768056, guid: a2a12c9c66944cd4fac07270973c6a68, type: 3}
