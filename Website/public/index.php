@@ -57,6 +57,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact_us.php">Contact us</a>
                 </li>
+                <li class="nav justify-content-end">
+                    <a class="nav-link" href="contact_us.php">Test us</a>
+                </li>
             </ul>
         </div>
     </nav>

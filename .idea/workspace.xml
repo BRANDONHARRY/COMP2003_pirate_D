@@ -26,9 +26,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="Leaderboard updated to display from database">
-      <change afterPath="$PROJECT_DIR$/Website/public/register.php" afterDir="false" />
+    <list default="true" id="55a90b99-f2c2-4e2a-b5a2-fc6ca339c588" name="Default Changelist" comment="register.php file created to create a new user in the system. This is then inputting these details into the database.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/leaderboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/leaderboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/public/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Website/public/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,9 @@
       <workItem from="1612440264640" duration="3697000" />
       <workItem from="1612456356172" duration="693000" />
       <workItem from="1613575188337" duration="4381000" />
-      <workItem from="1614174965557" duration="10624000" />
+      <workItem from="1614174965557" duration="10726000" />
+      <workItem from="1614186009404" duration="292000" />
+      <workItem from="1614780171454" duration="5826000" />
     </task>
     <task id="LOCAL-00001" summary="Website file structure">
       <created>1605104557576</created>
@@ -202,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613579556707</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="register.php file created to create a new user in the system. This is then inputting these details into the database.">
+      <created>1614185858294</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614185858294</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +257,7 @@
     <MESSAGE value="Change layout of webpages" />
     <MESSAGE value="Change layout of webpages added basic csv file." />
     <MESSAGE value="Leaderboard updated to display from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leaderboard updated to display from database" />
+    <MESSAGE value="register.php file created to create a new user in the system. This is then inputting these details into the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="register.php file created to create a new user in the system. This is then inputting these details into the database." />
   </component>
 </project>

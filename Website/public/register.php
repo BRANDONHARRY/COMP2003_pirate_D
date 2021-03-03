@@ -24,35 +24,37 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate email
     if(empty(trim($_POST["email"]))){
         $email_err = "Please enter your email.";
-    } else{
-        // Prepare statement
-        $sql = "SELECT userID FROM usertbl WHERE email = ?";
-
-        if($stmt = mysqli_prepare($con, $sql)){
+        echo (" enter a email ");
+    }
+    else{
+        echo (" has email ");
+        if($stmt = mysqli_prepare($con, "SELECT userID FROM comp2003_d.usertbl WHERE email = ?;")){
+            echo (" connected ");
             // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "s", $param_email);
+            mysqli_stmt_bind_param($stmt, "s", $checkEmail);
 
             // Set parameters
-            $param_email = trim($_POST["email"]);
+            $checkEmail = trim($_POST["email"]);
 
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
-                /* store result */
                 mysqli_stmt_store_result($stmt);
 
-                if(mysqli_stmt_num_rows($stmt) == 1){
+                if(mysqli_stmt_num_rows($stmt) > 0){
+                    echo ("email taken ");
                     $email_err = "This email is already taken.";
                 } else{
+                    echo ("email not taken ");
                     $email = trim($_POST["email"]);
                 }
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
             }
-
-            // Close statement
             mysqli_stmt_close($stmt);
         }
+        echo (" hasnt connected ");
     }
+
 
     // Validate password
     if(empty(trim($_POST["password"]))){
@@ -75,12 +77,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // Check input errors before inserting in database
     if(empty($email_err) && empty($password_err) && empty($confirm_password_err)){
-        echo ("test");
-        // Prepare an insert statement
-
-        $run = "INSERT INTO comp2003_d.usertbl (firstName, lastName, username, email, password) VALUES (?,?,?,?,?);";
-//        call comp2003_d.register ('?', '?', '?', '?', '?')
-
         if($stmt = mysqli_prepare($con, "INSERT INTO comp2003_d.usertbl (firstName, lastName, username, email, password) VALUES (?,?,?,?,?);")){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "sssss", $tempFirstName, $tempLastName, $tempUsername, $emailInput, $passwordInput);
