@@ -6,6 +6,7 @@ public class CannonballLeft: MonoBehaviour
 {
     public float movespeed = 10.0f;
     public int damage = 1;
+    public GameObject monster;
     // Start is called before the first frame update
     void Start()
     {

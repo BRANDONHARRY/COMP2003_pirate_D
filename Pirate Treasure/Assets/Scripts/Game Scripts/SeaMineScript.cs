@@ -10,6 +10,7 @@ public class SeaMineScript : MonoBehaviour
     public Sprite hideSprite;
     public Sprite seeSprite;
     public float distance;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +27,10 @@ public class SeaMineScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        StartCoroutine(WaitTime(other));
+        if (other.gameObject == player)
+        {
+            StartCoroutine(WaitTime(other));
+        }
         
     }
     
