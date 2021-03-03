@@ -36,7 +36,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Set parameters
             $checkEmail = trim($_POST["email"]);
 
-            // Attempt to execute the prepared statement
+            // Attempt to execute the prepared statements
             if(mysqli_stmt_execute($stmt)){
                 mysqli_stmt_store_result($stmt);
 
