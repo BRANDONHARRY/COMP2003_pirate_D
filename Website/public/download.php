@@ -56,6 +56,16 @@
                         <a class="nav-link" href="contact_us.php">Contact us</a>
                     </li>
                 </ul>
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Login</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.php">Register</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 

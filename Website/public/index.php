@@ -37,7 +37,6 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="index.php"><img src="../assets/img/pirate.png" class="d-inline-block align-top"
                                                           width="77.5" height="56"></a>
-
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php">Home </a>
@@ -59,6 +58,16 @@
                 </li>
                 <li class="nav justify-content-end">
                     <a class="nav-link" href="contact_us.php">Test us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="register.php">Register</a>
                 </li>
             </ul>
         </div>
