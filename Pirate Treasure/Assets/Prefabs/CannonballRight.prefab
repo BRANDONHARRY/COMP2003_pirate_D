@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4429027160867031948}
   - component: {fileID: 580044880010444861}
   - component: {fileID: 134049305494838320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CannonballRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 100
   damage: 1
+  monster: {fileID: 5296950560004953191, guid: e8243bafa0fcdda4e905426c0b4b7a90, type: 3}
 --- !u!50 &580044880010444861
 Rigidbody2D:
   serializedVersion: 4
