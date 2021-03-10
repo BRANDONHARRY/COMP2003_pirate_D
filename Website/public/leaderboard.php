@@ -63,6 +63,11 @@
                         </ul>
                         <ul class="navbar-nav mt-2 mt-lg-0">
                             <li class="nav-item">
+                                <a class="nav-link" href="login.php">Account</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav mt-2 mt-lg-0">
+                            <li class="nav-item">
                                 <a class="nav-link" href="login.php">Login</a>
                             </li>
                         </ul>
@@ -110,6 +115,7 @@
             die("Connection failed: " . $con->connect_error);
         }
         $query = "SELECT * FROM comp2003_d.usertbl;";
+//        $query = "SELECT * FROM comp2003_d.viewstats;";
         $result = $con->query($query);
 
         if ($result->num_rows > 0) {
